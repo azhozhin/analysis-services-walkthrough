@@ -155,19 +155,19 @@
       <Name>Calendar Month</Name>
       <Type>Months</Type>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2a9c356d-cd27-43ef-9ce2-1947150ac16c">
-          <DataType>WChar</DataType>
-          <DataSize>10</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d235708-1f0b-4ef1-abe7-855434d91dc4">
-            <TableID>dbo_DimDate</TableID>
-            <ColumnID>EnglishMonthName</ColumnID>
-          </Source>
-        </KeyColumn>
-        <KeyColumn dwd:design-time-name="adb3a9c1-fb73-47ea-b71b-f5c0e700a44d">
+        <KeyColumn dwd:design-time-name="46fe618c-2a11-42e2-a952-a0736afd6da8">
           <DataType>SmallInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="eb6286f9-eca6-412d-b3fa-1e42887b61be">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="319fff0b-86b4-437e-842b-86a981964896">
             <TableID>dbo_DimDate</TableID>
             <ColumnID>CalendarYear</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="abbd14ad-7b6d-4314-ba56-cdd5681769ea">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="262ba097-ae03-4c8e-bf9a-0938e7f009c8">
+            <TableID>dbo_DimDate</TableID>
+            <ColumnID>EnglishMonthName</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
@@ -195,18 +195,18 @@
       <Name>Calendar Quarter</Name>
       <Type>Quarters</Type>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a8a6b145-771a-49f8-aa3f-b2fded989e16">
-          <DataType>UnsignedTinyInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ade7201-da7f-44fc-ab50-38a307050b3a">
-            <TableID>dbo_DimDate</TableID>
-            <ColumnID>CalendarQuarter</ColumnID>
-          </Source>
-        </KeyColumn>
-        <KeyColumn dwd:design-time-name="266582d2-91b9-4654-9729-f8bde14a54e6">
+        <KeyColumn dwd:design-time-name="29170a53-1709-4b57-b7d9-a1197f3992f6">
           <DataType>SmallInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="802702ac-541a-4619-8ccf-0fe6d648aea6">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2220b8c2-3646-4944-a314-85d95220f236">
             <TableID>dbo_DimDate</TableID>
             <ColumnID>CalendarYear</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="0ad8ee6b-1f4d-4ddf-94db-b2c61f491632">
+          <DataType>UnsignedTinyInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6bcd06fa-3b53-42bf-8dcc-652839510835">
+            <TableID>dbo_DimDate</TableID>
+            <ColumnID>CalendarQuarter</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
@@ -251,18 +251,18 @@
       <Name>Calendar Semester</Name>
       <Type>HalfYears</Type>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4bda2d31-8be6-438b-81f5-d9d801787bab">
-          <DataType>UnsignedTinyInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="99427176-0d72-48dd-8978-0363c4f9df5b">
-            <TableID>dbo_DimDate</TableID>
-            <ColumnID>CalendarSemester</ColumnID>
-          </Source>
-        </KeyColumn>
-        <KeyColumn dwd:design-time-name="0edf7dfb-27db-49a1-9155-8f43a535fcd6">
+        <KeyColumn dwd:design-time-name="e33ff90b-5410-4189-bd49-cd1f55a4afb9">
           <DataType>SmallInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8068a645-12ef-4506-8a01-30c8a1609515">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f14e8383-5bfb-4db0-ba87-e967253bf8d6">
             <TableID>dbo_DimDate</TableID>
             <ColumnID>CalendarYear</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="955908bc-c7bd-4c76-b4d3-ff3fe2ffbc4e">
+          <DataType>UnsignedTinyInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="009b5df1-91aa-4038-b457-341cd0e33dd8">
+            <TableID>dbo_DimDate</TableID>
+            <ColumnID>CalendarSemester</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
